@@ -1,6 +1,7 @@
 import './App.css'
 import Demo from './useEffect/Demo'
 import DependencyArray from './useEffect/DependencyArray'
+import FetchData from './useEffect/FetchData'
 import StopWatch from './useEffect/StopWatch'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <>
       {/* <Demo/> */}
       {/* <DependencyArray /> */}
-      <StopWatch/>
+      {/* <StopWatch/> */}
+      <FetchData/>
     </>
   )
 }
